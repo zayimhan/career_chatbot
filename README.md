@@ -1,5 +1,5 @@
 ---
-title: zayimhans_chatbot
+title: zayimhans_chatbot https://huggingface.co/spaces/zayimhan/zayimhans_chatbot
 app_file: app.py
 sdk: gradio
 sdk_version: 4.44.1
