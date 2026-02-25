@@ -4,11 +4,11 @@ import re
 from openai import OpenAI
 from pypdf import PdfReader
 
-from career_agent.tools.email_notify import send_email
-from career_agent.tools.notify import push
-from career_agent.utils.logger import log_jsonl
-from career_agent.agents.evaluator_agent import EvaluatorAgent
-from career_agent.agents.risk_detector import RiskDetector
+from tools.email_notify import send_email
+from tools.notify import push
+from utils.logger import log_jsonl
+from agents.evaluator_agent import EvaluatorAgent
+from agents.risk_detector import RiskDetector
 
 EMAIL_RE = re.compile(r"([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})")
 
