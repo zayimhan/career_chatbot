@@ -2,6 +2,6 @@ python-dotenv
 openai
 openai-agents
 huggingface_hub
-gradio==4.44.0
+#gradio==4.44.0
 requests
 pypdf
