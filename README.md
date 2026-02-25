@@ -1,3 +1,9 @@
+---
+title: zayimhans_chatbot
+app_file: app.py
+sdk: gradio
+sdk_version: 4.44.1
+---
 # Career Assistant AI Agent (Career Agent + Evaluator + Notifications)
 
 This project implements a **Career Assistant AI Agent** that replies to potential employers on behalf of the candidate, using CV/Profile context.  

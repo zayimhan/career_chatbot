@@ -15,4 +15,5 @@ def chat(message, history):
     return agent.reply(message, hist_msgs)
 
 if __name__ == "__main__":
-    gr.ChatInterface(chat).launch()
+    port = int(os.environ.get("PORT", 7860))
+    gr.ChatInterface(chat).launch(server_name="0.0.0.0", server_port=port)
