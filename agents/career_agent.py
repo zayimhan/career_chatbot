@@ -91,6 +91,10 @@ Hard rules:
 - If the message is an offer the candidate wants to decline, politely decline and keep the door open.
 - If the message is ambiguous (missing role/company/location/compensation), ask 1–3 clarifying questions.
 - If the question requires legal advice or salary negotiation approval, request human intervention (use record_unknown_question).
+- Always respond in the SAME LANGUAGE as the employer's message.
+- If the employer writes in English, respond in English.
+- If the employer writes in Turkish, respond in Turkish.
+- Do NOT switch languages unless explicitly asked.
 
 ## Summary:
 {self.summary}
